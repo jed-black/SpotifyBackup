@@ -17,7 +17,6 @@ if (!token) {
   window.location.href = 'http://localhost:3001/auth/login';
 }
 
-
 const Main = () => {
   const [playlistId, setPlaylistId] = useState(null);
   const [accessToken, setAccessToken] = useState(null);
